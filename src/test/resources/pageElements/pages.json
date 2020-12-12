@@ -1,0 +1,32 @@
+{
+  "elements": {
+    "fancybox": "a[title=\"Close\"]",
+    "KADIN": "a[href=\"/butik/liste/kadin\"]",
+    "ERKEK": "a[href=\"/butik/liste/erkek\"]",
+    "COCUK": "a[href=\"/butik/liste/kadin\"]",
+    "EVYASAM": "a[href=\"/butik/liste/ev--yasam\"]",
+    "SUPERMARKET": "a[href=\"/butik/liste/supermarket\"]",
+    "KOZMETIK": "a[href=\"/butik/liste/kozmetik\"]",
+    "AYAKKABICANTA": "a[href=\"/butik/liste/ayakkabi--canta\"]",
+    "SAATAKSESUAR": "a[href=\"/butik/liste/saat--aksesuar\"]",
+    "ELEKTRONIK": "a[href=\"/butik/liste/elektronik\"]",
+    "images": "//div[@class=\"component-list component-small-list\"]//img",
+    "seller": "(//div[@class=\"component-list component-small-list\"]//a)[{theseller}]",
+    "sellerCategoryName": "(//div[@class=\"component-list component-small-list\"]//a)[{theseller}]//*[@class=\"name\"]",
+    "butikProduct": "(//*[@class=\"boutique-product\" or @class=\"boutique-product card\" or @class=\"prdct-desc-cntnr-name hasRatings\" or class=\"p-card-img\"])[{theanyproduct}]",
+    "productCategory": "//a[text()='Tüm Butikler']/parent::li/following-sibling::li[text()='{thethisCategoryname}']",
+    "email": "#login-email",
+    "password": "#login-password-input",
+    "signin": "#accountBtn",
+    "login": "button[type=\"submit\"]",
+    "sepeteekle": "//div[text()='Sepete Ekle']/parent::button",
+    "sepetim": "#myBasketListItem",
+    "activeTab": "//li[@class=\"tab-link active\"]/a[text()=\"{theactiveTab}\"]",
+    "deleteMyOrder": "//p[contains(@title,\"{theproductName}\")]/parent::a/following-sibling::div//i[@class=\"i-trash\"]/parent::button",
+    "delete": "button[ng-click=\"removeItemAsMember()\"]"
+  },
+  "baseUrl": {
+    "trendyol": "https://www.trendyol.com/"
+
+  }
+}
